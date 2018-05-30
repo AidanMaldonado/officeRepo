@@ -1,0 +1,81 @@
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar {
+  border-bottom: #1F618D 3px solid;
+  opacity: 0.95;
+}
+
+.card {
+  border-color: #1F618D;
+}
+
+.card-body {
+  background-color: #1F618D;
+}
+
+#home-section {
+  background: url('image/officemain.jpg') no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+}
+
+.dark-overlay {
+  background-color: rgba(0,0,0,0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+}
+
+.card-form {
+  opacity: 0.9;
+}
+
+#home-section .fas,
+#home-section .fab {
+  color: #1F618D;
+  background-color: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+#service-section .fas {
+  color: #fff;
+  background-color: #333;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.bg-style {
+  background-color: #1F618D;
+  color: #333;
+}
+
+#price-section .fas {
+  color: #333;
+  background-color: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+#share-head-section {
+  background: url('image/plants2.jpg');
+  background-size: cover;
+  min-height: 800px;
+}
+
+#share-link {
+  margin-top: 125px;
+}
